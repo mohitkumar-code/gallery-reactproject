@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import GalleryGrid from "../components/GalleryGrid";
+import Pagination from "../components/Pagination"
 
 const Gallery = () => {
   return (
@@ -9,6 +10,7 @@ const Gallery = () => {
 
       <main className="max-w-7xl mx-auto px-5 py-8">
         <GalleryGrid />
+        <Pagination />
       </main>
     </div>
   );
