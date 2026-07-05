@@ -1,9 +1,10 @@
 import React from 'react'
+import Gallery from './pages/Gallery.jsx'
 
 const App = () => {
   return (
     <div>
-      <h1>Mohit</h1>
+      <Gallery />
 
     </div>
   )
